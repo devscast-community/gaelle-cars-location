@@ -1,0 +1,1136 @@
+/* Extra large devices (large desktops, 1800px and up) */
+@media (max-width: 1800px) {
+.team-active .slick-arrow {
+	left: -80px;
+}
+.team-active .slick-arrow.slick-next {
+	left: auto;
+	right: -80px;
+}
+.best-services-content {
+    padding: 40px 35px;
+    min-height: auto;
+}
+.best-services-thumb img {
+    max-width: unset;
+    max-height: 360px;
+}
+
+
+}
+
+
+/* Extra large devices (large desktops, 1800px and up) */
+@media (max-width: 1500px) {
+.custom-container {
+    max-width: 1300px;
+}
+.team-active .slick-arrow {
+	left: 0;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    background: #ff5400;
+}
+.team-active .slick-arrow img {
+    max-width: 25px;
+}
+.team-active .slick-arrow.slick-next {
+    left: auto;
+    right: 0;
+}
+.slider-angle-shape {
+    width: 800px;
+}
+.slider-content h2 {
+    font-size: 60px;
+}
+.single-slider {
+	padding: 260px 0 200px;
+	min-height: 790px;
+}
+.banner-area {
+    padding: 255px 0px 150px;
+}
+.best-services-thumb img {
+    max-width: unset;
+    max-height: 316px;
+}
+.best-services-content h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.best-services-content .price {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+}
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (max-width: 1199.98px) {
+.custom-container {
+    max-width: 960px;
+}
+.header-action > ul li.header-btn {
+	display: none;
+}
+.header-shop-cart ul.minicart {
+	right: 0;
+}
+.slider-content > span {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.slider-content > span::before {
+    height: 25px;
+}
+.slider-content h2 {
+    font-size: 50px;
+}
+.slider-angle-shape {
+    width: 680px;
+}
+.single-slider {
+    padding: 260px 0 200px;
+    min-height: 760px;
+}
+.car-search-wrap {
+    padding: 50px 35px 30px;
+}
+.popular-selling-wrap {
+    padding: 35px 35px 15px;
+}
+.latest-cars-wrapper {
+    padding: 0;
+}
+.latest-car-content-top h5 {
+    font-size: 17px;
+}
+.fact-item {
+    display: block;
+    text-align: center;
+}
+.fact-icon {
+    font-size: 55px;
+    width: auto;
+    flex: auto;
+    margin-right: 0;
+    margin-bottom: 15px;
+}
+.exclusive-featured-area .row:nth-child(2) [class*="col-"]:first-child .exc-featured-item {
+    margin-right: 0;
+}
+.exclusive-featured-area .row:nth-child(2) [class*="col-"]:last-child .exc-featured-item {
+    margin-left: 0;
+}
+.app-screenshot-img {
+    right: 40px;
+}
+.footer-right-wrap {
+    padding: 75px 0 0 15px;
+}
+.footer-payment-method-wrap .content {
+    width: auto;
+}
+.footer-payment-method-wrap {
+    display: block;
+}
+.payment-card {
+    text-align: left;
+    margin-top: 15px;
+}
+.footer-widget.black-bg {
+    padding: 75px 30px 40px;
+}
+.fw-title .title {
+    font-size: 18px;
+}
+.footer-brand-active {
+    padding-left: 30px;
+}
+.footer-logo {
+    padding: 30px 40px;
+}
+.about-features-item {
+    display: block;
+    text-align: center;
+    padding-left: 0;
+}
+.about-features-item .icon {
+    margin: 0 auto 15px;
+}
+.inner-about-area.pb-60 {
+    padding-bottom: 75px;
+}
+.about-exp > h2 {
+    font-size: 110px;
+    line-height: .7;
+}
+.about-content-wrap {
+    padding-left: 30px;
+    padding-right: 0;
+}
+.faq-img {
+    margin-left: 0;
+}
+.faq-wrap {
+    margin-right: 15px;
+}
+.faq-set a {
+    padding: 0 15px 0 15px;
+}
+.faq-set .content {
+    margin: 20px 20px 0 15px;
+}
+.calculator-loan {
+    padding: 60px 50px;
+}
+.section-title .overlay-title {
+    font-size: 80px;
+}
+.banner-img > img {
+    max-width: 100%;
+}
+.banner-img > .banner-shape {
+    max-width: 320px;
+    left: 50%;
+}
+.banner-area {
+    padding: 230px 0px 130px;
+}
+.best-services-area .container-fluid {
+    max-width: 960px;
+}
+.best-services-thumb img {
+    max-width: unset;
+    max-height: unset;
+}
+.best-services-area .row [class*="col-"]:last-child .best-services-item {
+    flex-direction: row;
+}
+.best-services-content {
+    padding: 50px 60px;
+}
+.best-services-content h3 {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+.best-services-content .price {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.range-custom-col-btn .btn {
+    padding: 22px 25px;
+    width: 100%;
+}
+.gray-lite-bg .latest-car-item {
+    padding: 40px 20px 25px;
+}
+.gray-lite-bg .latest-car-content-top h5 {
+    font-size: 17px;
+}
+.progress-wrap {
+    padding: 45px 40px 55px;
+}
+.progress-wrap .section-title > p {
+    padding-right: 30px;
+}
+.video-area-wrap {
+    padding: 120px 40px 115px;
+}
+.blog-post-item {
+    padding-right: 0;
+    border-right: none;
+}
+.blog-post-content h3 {
+    font-size: 20px;
+    margin-bottom: 0;
+    padding-right: 0px;
+}
+.inventory-list-item {
+    display: block;
+    padding: 30px 30px 30px 30px;
+}
+.inventory-list-thumb {
+    width: auto;
+    flex: 0;
+    margin-right: 0;
+    position: relative;
+    margin-bottom: 30px;
+}
+.inventory-list-thumb img {
+    max-width: 100%;
+    width: 100%;
+}
+.inventory-details-area .inventory-sidebar {
+    margin-left: 0;
+}
+.inventory-features,
+.inventory-details-description,
+.inventory-details-location,
+.inventory-review-wrap,
+.inventory-review-form {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.inventory-features-item h6 {
+    font-size: 14px;
+}
+.inventory-details-area .sidebar-loan-calculator > a i {
+    width: 56px;
+    min-height: 48px;
+    line-height: 48px;
+    flex: 0 0 56px;
+}
+.inventory-details-area .sidebar-loan-calculator > a span {
+    padding: 10px 10px;
+}
+.inventory-details-area .sidebar-loan-calculator > a {
+    font-size: 14px;
+}
+.author-profile-wrap {
+    margin-top: 0;
+    margin-right: 0;
+}
+.author-profile-area .inventory-short-meta .nice-select {
+    width: 200px;
+    flex: 0 0 200px;
+}
+.blog-sidebar {
+    background: transparent;
+    padding: 0;
+    border-radius: 0;
+    margin-left: 0;
+}
+.blog-sidebar .widget {
+    border: 1px solid #ededed7d;
+}
+.sidebar-about-content p {
+    padding: 0;
+}
+.rc-post-content h5 {
+    font-size: 14px;
+}
+.blog--post--content {
+    padding: 30px 30px 20px;
+}
+.blog--post--content h2 {
+    font-size: 24px;
+}
+.blog-details-content blockquote {
+    font-size: 14px;
+}
+.blog-details-content {
+    padding: 35px 30px 80px 30px;
+}
+.login-wrap.reg-wrap,
+.login-wrap {
+    padding: 55px 30px 60px 30px;
+}
+.contact-form-wrap .login-wrap {
+    margin-left: 0;
+    padding: 60px 40px 60px;
+}
+#contact-map {
+    height: 376px;
+}
+.home-three-banner.banner-area {
+    padding: 230px 0 260px;
+}
+.home-three-banner .slider-content h2 {
+    font-size: 60px;
+}
+.latest-cars-three .latest-car-content-wrap {
+    padding: 25px 20px 15px 20px;
+}
+
+}
+
+
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 991.98px) {
+.custom-container {
+    max-width: 720px;
+}
+.main-header {
+	padding: 25px 0;
+}
+.menu-nav {
+	justify-content: space-between;
+}
+.header-action {
+	margin-right: 40px;
+}
+.header-shop-cart ul.minicart {
+	top: 51px;
+}
+.menu-outer .navbar-wrap {
+	display: block !important;
+}
+.menu-area .mobile-nav-toggler {
+	display: block;
+}
+.slider-content h2 {
+    font-size: 70px;
+}
+.main-header.sticky-menu {
+    padding: 15px 0;
+}
+.header-action .header-search:before {
+    height: 25px;
+}
+.transparent-header .menu-area.sticky-menu .mobile-nav-toggler {
+    color: #525252;
+}
+.car-search-form .custom-col-5 {
+    -ms-flex: 0 0 33%;
+    flex: 0 0 33%;
+    max-width: 33%;
+}
+.popular-selling-items img {
+    max-width: 100%;
+    width: 100%;
+}
+.popular-selling-ad-banner {
+    margin-top: 50px;
+    text-align: center;
+}
+.collapse-search-body .search-body {
+    margin-top: 15px;
+}
+.fact-icon {
+    font-size: 64px;
+}
+.exc-featured-item {
+    text-align: center;
+    padding: 0 8px;
+}
+.exc-featured-item .icon {
+    margin-left: auto;
+    margin-right: auto;
+}
+.team-thumb img {
+    max-width: 100%;
+    width: 100%;
+}
+.app-screenshot-img {
+    display: none;
+}
+.app-download-bg {
+    padding: 120px 70px;
+    min-height: auto;
+    margin-top: 0;
+}
+.footer-right-wrap {
+    padding: 0px 0 0 0;
+}
+.footer-payment-method-wrap {
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+.footer-widget.black-bg {
+    padding: 50px 40px 45px;
+}
+.about-features-item {
+    padding: 0 25px;
+}
+.inner-about-content {
+    text-align: center;
+}
+.inner-about-content .section-title .line {
+    justify-content: center;
+}
+.about-img-wrap {
+    margin-bottom: 20px;
+}
+.about-img {
+    margin-bottom: 30px;
+}
+.about-content-wrap {
+    padding-left: 0;
+    padding-right: 0;
+}
+.faq-img {
+    margin-left: 0;
+    margin-bottom: 50px;
+}
+.faq-bg-dots {
+    left: 0;
+}
+.calculator-loan {
+    padding: 45px 30px;
+}
+.form.loan-calculator-form,
+.loan-terms-conditions {
+    margin-right: 0;
+}
+.loan-result-wrap {
+    padding: 45px 25px 30px;
+}
+.header-style-two .collapse-search-body .search-body {
+    margin-top: 0;
+}
+.banner-img > .banner-shape {
+    display: none;
+}
+.banner-img {
+    margin-bottom: 50px;
+}
+.banner-area .slider-content {
+    text-align: center;
+}
+.banner-area {
+    padding: 240px 0px 150px;
+}
+.header-style-two .menu-area .mobile-nav-toggler {
+    color: #282828;
+}
+.banner-area .slider-content > span {
+    display: inline-block;
+}
+.best-services-item {
+    flex-direction: column !important;
+}
+.best-services-content,
+.best-services-thumb {
+    max-width: 100%;
+    flex: 0 0 100%;
+}
+.best-services-thumb img {
+    max-width: 100%;
+}
+.best-services-area .container-fluid {
+    max-width: 720px;
+}
+.best-services-area .container-fluid .no-gutters {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.best-services-area .container-fluid .no-gutters [class*=col-] {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.best-services-content {
+    padding: 40px 30px;
+}
+.car-search-style-two .car-search-wrap {
+    padding: 50px 35px 30px;
+}
+.car-search-style-two .car-search-form .custom-col-4 {
+    margin-bottom: 30px;
+    -ms-flex: 0 0 33%;
+    flex: 0 0 33%;
+    max-width: 33%;
+}
+.car-search-style-two .car-search-form .row {
+    justify-content: center;
+}
+.range-custom-col {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.car-search-wrap .price_slider_amount > span {
+    font-size: 14px;
+    line-height: 1.5;
+}
+.video-play-icon {
+    justify-content: flex-start;
+    margin-bottom: 40px;
+}
+.progress-list {
+    margin-top: 40px;
+}
+.progress-wrap {
+    padding: 55px 40px 60px;
+    background-position: unset;
+}
+.best-services-area {
+    padding-top: 120px;
+}
+.best-services-content h3 {
+    font-size: 26px;
+}
+.inventory-sidebar {
+    margin-left: 0;
+    margin-top: 120px;
+}
+.inventory-features,
+.inventory-details-description,
+.inventory-details-location,
+.inventory-review-wrap,
+.inventory-review-form {
+    padding-left: 42px;
+    padding-right: 42px;
+}
+.author-profile-wrap {
+    margin-top: 120px;
+}
+.blog--post--content {
+    padding: 35px 40px 25px;
+}
+.blog-sidebar {
+    background: #ececec;
+    padding: 30px 25px;
+    border-radius: 8px;
+    margin-top: 120px;
+}
+.rc-post-content h5 {
+    font-size: 16px;
+}
+.blog-details-content {
+    padding: 35px 40px 80px 40px;
+}
+.login-wrap.reg-wrap,
+.login-wrap {
+    padding: 75px 50px 75px 50px;
+}
+.login-wrap.reg-wrap {
+    background: #f7f7f7;
+    background: -webkit-linear-gradient(to bottom, #f7f7f7, #fff);
+    background: linear-gradient(to bottom, #f7f7f7, #fff);
+}
+.contact-form-wrap .login-wrap {
+    margin-top: 80px;
+}
+.contact-form-wrap .login-wrap {
+    padding: 65px 60px 80px;
+}
+#contact-map {
+    height: 510px;
+}
+.banner-car-search-wrap {
+    background: rgba(35, 35, 35, .7);
+}
+.home-three-banner.banner-area {
+    padding: 230px 0 330px;
+}
+.latest-cars-three .latest-car-content-wrap {
+    padding: 25px 25px 15px 25px;
+}
+
+}
+
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 767.98px) {
+.transparent-header {
+	top: 0;
+}
+.section-title .overlay-title {
+    font-size: 55px;
+    line-height: 1;
+}
+.slider-angle-shape {
+    width: 90%;
+}
+.header-top-right ul {
+    justify-content: center;
+}
+.menu-nav .logo img {
+    max-width: 150px;
+}
+.slider-content h2 {
+    font-size: 35px;
+}
+.single-slider {
+    padding: 195px 0 160px;
+    min-height: 645px;
+}
+.slider-content > span {
+    font-size: 18px;
+}
+.slider-content > span::before {
+    height: 20px;
+}
+.slider-content > span::before {
+    height: 20px;
+}
+.small-title h4 {
+    font-size: 18px;
+    margin-bottom: 0;
+}
+.small-title h4 i {
+    font-size: 20px;
+    margin-right: 10px;
+}
+.car-search-form .custom-col-5 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.car-search-wrap {
+    padding: 85px 30px 30px;
+}
+.popular-selling-wrap {
+    padding: 45px 30px 25px;
+}
+.popular-selling-items img {
+    width: auto;
+}
+.see-all-brand {
+    display: none;
+}
+.popular-selling-title h4 {
+    font-size: 18px;
+}
+.section-title .title {
+    font-size: 32px;
+}
+.fact-area-title {
+    max-width: 255px;
+    padding: 7px 20px;
+}
+.fact-area-title > span {
+    left: 5px;
+}
+.fact-area-title > span.right {
+    left: auto;
+    right: 5px;
+}
+.app-download-bg {
+    padding: 120px 35px;
+}
+.app-download-title .title {
+    font-size: 30px;
+}
+.download-btn {
+    margin-top: 20px;
+}
+.footer-brand-active {
+    padding: 40px 20px;
+}
+.footer-widget.black-bg {
+    padding: 50px 30px 45px;
+}
+.footer-payment-method-wrap {
+    padding: 38px 30px;
+}
+.payment-card img {
+    max-width: 100%;
+}
+.copyright-text {
+    text-align: center;
+}
+.scroll-top {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 17px;
+}
+.about-features-item {
+    padding: 0;
+}
+.breadcrumb-bg {
+    padding: 80px 0;
+}
+.breadcrumb-content h2 {
+    font-size: 32px;
+}
+.about-content-wrap .content .icon img {
+    width: 45px;
+}
+.about-content-wrap .content .icon {
+    margin-right: 20px;
+}
+.faq-set a {
+    font-size: 16px;
+}
+.calculator-loan {
+    padding: 45px 20px;
+    margin-top: 0;
+}
+.loan-calculator-area::before {
+    top: 0;
+}
+.loan-calculator-area {
+    padding-top: 120px;
+}
+.loan-result-wrap {
+    padding: 35px 20px 30px;
+    margin-top: 50px;
+}
+.car-search-style-two .car-search-form .custom-col-4 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.range-custom-col {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.car-search-style-two .car-search-wrap {
+    padding: 85px 30px 30px;
+}
+.video-area-wrap {
+    padding: 120px 0px 115px;
+    text-align: center;
+}
+.video-play-icon {
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.progress-wrap {
+    padding: 55px 20px 60px;
+    background-position: unset;
+}
+.progress-wrap .section-title > p {
+    padding-right: 0;
+}
+.inventory-short-meta {
+    justify-content: center;
+    margin-top: 20px;
+}
+.inventory-short-meta .nice-select {
+    width: 210px;
+    flex: 0 0 210px;
+}
+.inventory-top-meta ul {
+    justify-content: center;
+}
+.inventory-list-item {
+    padding: 20px 20px 20px 20px;
+}
+.inv-content-top ul {
+    flex-wrap: wrap;
+}
+.inv-content-top .option {
+    width: 70%;
+    flex: 0 0 70%;
+}
+.inv-item-meta ul li {
+    margin-bottom: 10px;
+}
+.inv-content-top .price {
+    margin-top: 10px;
+}
+.inventory-widget {
+    padding: 40px 20px;
+}
+.sidebar-loan-calculator > a i {
+    width: 56px;
+    min-height: 48px;
+    line-height: 48px;
+    flex: 0 0 56px;
+}
+.sidebar-loan-calculator > a span {
+    padding: 10px 10px;
+}
+.sidebar-loan-calculator > a {
+    font-size: 14px;
+}
+.inventory-short-meta .nice-select {
+    width: 210px;
+    flex: 0 0 210px;
+}
+.inv-details-meta-wrap {
+    padding: 40px 0;
+}
+.inv-details-meta-right ul {
+    justify-content: flex-start;
+    margin-top: 25px;
+}
+.inventory-features,
+.inventory-details-description,
+.inventory-details-location,
+.inventory-review-wrap,
+.inventory-review-form {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.inventory-features-item h6 {
+    font-size: 16px;
+}
+.inv-details-title .location {
+    width: 100%;
+    flex: 0 0 100%;
+    flex-direction: row-reverse;
+    margin-top: 13px;
+}
+.inv-details-title .location i {
+    margin-left: 0;
+    margin-right: 10px;
+    margin-top: 3px;
+}
+.inventory-details-location .inv-details-title,
+.inventory-review-wrap .inv-details-title {
+    display: block;
+}
+.inv-details-title .review-top-left {
+    width: 100%;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+}
+.inv-details-title .review-top-left {
+    margin-right: 20px;
+}
+.review-top-left .review {
+    margin-top: 5px;
+}
+.inv-details-title .write-review {
+    margin-top: 10px;
+}
+.review-top-left .rating {
+    margin-left: 0;
+}
+.blog-comment ul li .single-comment {
+    display: block;
+}
+.comment-avatar-img {
+    margin-bottom: 15px;
+}
+.comment-avatar-info h5 span {
+    display: block;
+    margin-left: 0;
+    margin-top: 7px;
+}
+.inv-details-title .review-top-left h5 {
+    margin-right: 20px;
+}
+.comment-text p {
+    padding-right: 0;
+}
+.author-profile-area .inventory-top-meta ul {
+    display: block;
+    text-align: center;
+}
+.author-profile-wrap {
+    padding: 40px 20px 0;
+}
+.blog--post--content h2 {
+    font-size: 18px;
+}
+.blog--post--content {
+    padding: 30px 20px 20px;
+}
+.blog-sidebar {
+    background: transparent;
+    padding: 0;
+    border-radius: 0;
+    margin-left: 0;
+}
+.blog-sidebar .widget {
+    border: 1px solid #ededed7d;
+}
+.rc-post-content h5 {
+    font-size: 14px;
+}
+.blog-details-content blockquote::before {
+    display: none;
+}
+.blog-details-content blockquote {
+    padding-left: 0;
+    margin: 25px 0 25px;
+}
+.blog-details-bottom {
+    display: block;
+}
+.social-share {
+    text-align: left;
+    margin-top: 30px;
+}
+.blog-post-share ul {
+    justify-content: flex-start;
+}
+.avatar-post {
+    padding: 30px 25px;
+    display: block;
+    text-align: center;
+}
+.post-avatar-img {
+    margin-left: auto;
+    margin: 0 auto 20px;
+}
+.post-avatar-content ul {
+    justify-content: center;
+}
+.post-avatar-content ul li {
+    margin-right: 4px;
+    margin-left: 4px;
+}
+.blog--post--content {
+    padding: 35px 20px 70px 20px;
+}
+.related-tag h5,
+.social-share h5 {
+    margin-bottom: 9px;
+}
+.login-wrap.reg-wrap,
+.login-wrap {
+    padding: 50px 25px 50px 25px;
+}
+.login-reg-wrap .widget-title {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.login-form .form-grp {
+    margin-bottom: 25px;
+}
+.login-reg-wrap {
+    margin-top: 0;
+}
+.login-register-area.gray-lite {
+    padding-top: 120px;
+}
+.login-register-area.gray-lite::before {
+    top: 0;
+}
+.contact-form-wrap .login-wrap {
+    padding: 60px 25px 60px;
+}
+#contact-map {
+    height: 410px;
+}
+.home-three-banner .slider-content h2 {
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: 1.1;
+}
+.home-three-banner.banner-area {
+    padding: 220px 0 540px;
+}
+.latest-cars-three .latest-car-content-wrap {
+    padding: 25px 20px 15px 20px;
+}
+
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+.custom-container {
+    max-width: 540px;
+}
+.single-slider {
+    padding: 235px 0 170px;
+    min-height: 690px;
+}
+.slider-content h2 {
+    font-size: 45px;
+}
+.small-title h4 {
+    font-size: 20px;
+    margin-bottom: 0;
+}
+.small-title h4 i {
+    font-size: 35px;
+    margin-right: 15px;
+}
+.popular-selling-title h4 {
+    font-size: 20px;
+}
+.see-all-brand {
+    display: block;
+}
+.car-search-form .custom-col-5 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.car-search-form .row {
+    justify-content: center;
+}
+.car-search-wrap {
+    padding: 60px 30px 30px;
+}
+.latest-car-thumb img {
+    max-width: 100%;
+    width: 100%;
+}
+.team-content {
+    padding: 25px 20px 20px;
+}
+.team-content a {
+    font-size: 13px;
+}
+.footer-widget.black-bg {
+    padding: 50px 40px 45px;
+}
+.calculator-loan {
+    padding: 45px 40px;
+}
+.loan-result-wrap {
+    padding: 45px 30px 30px;
+}
+.car-search-style-two .car-search-wrap {
+    padding: 50px 35px 30px;
+}
+.progress-wrap {
+    padding: 55px 40px 60px;
+}
+.gray-lite-bg .latest-car-item {
+    padding: 40px 25px 25px;
+}
+.inventory-list-item {
+    padding: 30px 30px 30px 30px;
+}
+.inv-content-top .price {
+    margin-top: 0;
+}
+.inventory-widget {
+    padding: 40px 30px;
+}
+.inv-details-meta-right ul {
+    justify-content: flex-end;
+    margin-top: 0;
+}
+.review-top-left .review {
+    margin-top: 0;
+}
+.inv-details-title .write-review {
+    margin-top: 5px;
+}
+.comment-avatar-info h5 span {
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 0;
+}
+.inv-details-meta-wrap {
+    padding: 25px 0;
+}
+.author-profile-wrap {
+    padding: 40px 35px 0;
+}
+.blog--post--content h2 {
+    font-size: 20px;
+}
+.blog-sidebar {
+    background: #ececec;
+    padding: 30px 25px;
+    border-radius: 8px;
+    margin-top: 120px;
+}
+.rc-post-content h5 {
+    font-size: 16px;
+}
+.blog--post--content {
+    padding: 35px 30px 70px 30px;
+}
+.login-wrap.reg-wrap, .login-wrap {
+    padding: 75px 40px 75px 40px;
+}
+.login-reg-wrap .widget-title {
+    font-size: 22px;
+    margin-bottom: 40px;
+}
+.contact-form-wrap .login-wrap {
+    padding: 65px 40px 80px;
+}
+.home-three-banner .slider-content h2 {
+    font-size: 50px;
+}
+.home-three-banner.banner-area {
+    padding: 220px 0 430px;
+}
+.latest-cars-three .latest-car-content-wrap {
+    padding: 25px 30px 15px 30px;
+}
+
+}
+
+

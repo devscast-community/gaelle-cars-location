@@ -1,19 +1,49 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title>{% block title %}Welcome!{% endblock %}</title>
-        <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 128 128%22><text y=%221.2em%22 font-size=%2296%22>⚫️</text></svg>">
-        {# Run `composer require symfony/webpack-encore-bundle` to start using Symfony UX #}
-        {% block stylesheets %}
-            {{ encore_entry_link_tags('app') }}
-        {% endblock %}
+<html lang="{{ app.request.locale }}">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}CRUD{% endblock %}</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 128 128%22><text y=%221.2em%22 font-size=%2296%22>⚫️</text></svg>">
+    {% block stylesheets %}
+        <link rel="stylesheet" href="/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/css/animate.min.css">
+        <link rel="stylesheet" href="/css/magnific-popup.css">
+        <link rel="stylesheet" href="/css/fontawesome-all.min.css">
+        <link rel="stylesheet" href="/css/owl.carousel.min.css">
+        <link rel="stylesheet" href="/css/jquery-ui.min.css">
+        <link rel="stylesheet" href="/css/flaticon.css">
+        <link rel="stylesheet" href="/css/jarallax.css">
+        <link rel="stylesheet" href="/css/nice-select.css">
+        <link rel="stylesheet" href="/css/odometer.css">
+        <link rel="stylesheet" href="/css/aos.css">
+        <link rel="stylesheet" href="/css/slick.css">
+        <link rel="stylesheet" href="/css/default.css">
+        <link rel="stylesheet" href="/css/style.css">
+        <link rel="stylesheet" href="/css/responsive.css">
+    {% endblock %}
 
-        {% block javascripts %}
-            {{ encore_entry_script_tags('app') }}
-        {% endblock %}
-    </head>
-    <body>
-        {% block body %}{% endblock %}
-    </body>
+    {% block javascripts %}
+        <script src="/js/popper.min.js"></script>
+        <script src="/js/bootstrap.min.js"></script>
+        <script src="/js/isotope.pkgd.min.js"></script>
+        <script src="/js/imagesloaded.pkgd.min.js"></script>
+        <script src="/js/jquery.magnific-popup.min.js"></script>
+        <script src="/js/jquery.nice-select.min.js"></script>
+        <script src="/js/owl.carousel.min.js"></script>
+        <script src="/js/jquery.odometer.min.js"></script>
+        <script src="/js/jquery.accrue.min.js"></script>
+        <script src="/js/jquery.appear.js"></script>
+        <script src="/js/jarallax.min.js"></script>
+        <script src="/js/slick.min.js"></script>
+        <script src="/js/ajax-form.js"></script>
+        <script src="/js/wow.min.js"></script>
+        <script src="/js/aos.js"></script>
+        <script src="/js/plugins.js"></script>
+        <script src="/js/main.js'"></script>
+    {% endblock %}
+</head>
+<body>
+{% include 'includes/header.html.twig' %}
+{% block body %}{% endblock %}
+</body>
 </html>

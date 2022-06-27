@@ -1,0 +1,40 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Register{% endblock %}
+
+{% block body %}
+    <section class="breadcrumb-area breadcrumb-bg" data-background="img/bg/breadcrumb_bg.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="breadcrumb-content text-center">
+                        <h2>Inscription</h2>
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item active"><a href="{{ path('app_login') }}">connexion</a></li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="login-register-area gray-lite pb-120">
+        <div class="container">
+            <div class="login-reg-wrap">
+                <div class="no-gutters">
+                    <div class="login-wrap">
+                        <h3 class="widget-title">Connexion à votre <span>compte</span></h3>
+
+                        {{ form_start(registrationForm, {attr: {class: 'login-form'}}) }}
+                            {{ form_widget(registrationForm) }}
+                            <button class="btn">Inscription</button>
+                        {{ form_end(registrationForm) }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+{% endblock %}
