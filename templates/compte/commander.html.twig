@@ -1,0 +1,49 @@
+{% extends 'base.html.twig' %}
+{% block title %}Commander{% endblock %}
+
+{% block body %}
+    <section class="breadcrumb-area breadcrumb-bg" data-background="img/bg/breadcrumb_bg.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="breadcrumb-content text-center">
+                        <h2>Confirmation de la commande</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="login-register-area gray-lite pb-120">
+        <div class="container">
+            <div class="inventory-list-item">
+                <div class="inventory-list-thumb">
+                    <img src="{{ vehicule.photo }}" alt="">
+                </div>
+                <div class="inventory-list-content">
+                    <div class="inv-content-top">
+                        <ul>
+                            <li class="price">Eur {{ vehicule.prixJournalier }}<span>/jour</span></li>
+                        </ul>
+                    </div>
+                    <h6>{{ vehicule.marque }}</h6>
+                    <h4>{{ vehicule.titre }}</h4>
+                    <p class="location">
+                        {{ vehicule.description }}
+                    </p>
+                </div>
+            </div>
+            <div class="login-reg-wrap">
+                <div class="no-gutters">
+                    <div class="login-wrap">
+                        {{ form_start(form, {attr: {class: 'login-form'}}) }}
+                        {{ form_widget(form) }}
+                        <button class="btn btn-primary">Confirmer la commande</button>
+                        {{ form_end(form) }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+{% endblock %}

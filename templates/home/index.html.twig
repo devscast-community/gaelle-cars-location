@@ -46,6 +46,7 @@
                     <p class="location">
                         {{ vehicule.description }}
                     </p>
+                    <a href="{{ path('app_commander', {id: vehicule.id}) }}" class="btn btn-primary">Commander</a>
                 </div>
             </div>
         {% endfor %}

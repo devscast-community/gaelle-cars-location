@@ -33,6 +33,11 @@ class Commande
     #[ORM\Column(type: 'date_immutable')]
     private $date_enregistrement;
 
+    public function __construct()
+    {
+        $this->date_enregistrement = new \DateTimeImmutable();
+    }
+
     public function getId(): ?int
     {
         return $this->id;
@@ -67,9 +72,13 @@ class Commande
         return $this->date_heure_depart;
     }
 
-    public function setDateHeureDepart(\DateTimeImmutable $date_heure_depart): self
+    public function setDateHeureDepart(\DateTimeInterface $date_heure_depart): self
     {
         $this->date_heure_depart = $date_heure_depart;
+
+        if ($date_heure_depart instanceof  \DateTime) {
+            $this->date_heure_depart = \DateTimeImmutable::createFromInterface($date_heure_depart);
+        }
 
         return $this;
     }
@@ -79,9 +88,13 @@ class Commande
         return $this->date_heure_fin;
     }
 
-    public function setDateHeureFin(\DateTimeImmutable $date_heure_fin): self
+    public function setDateHeureFin(\DateTimeInterface $date_heure_fin): self
     {
         $this->date_heure_fin = $date_heure_fin;
+
+        if ($date_heure_fin instanceof \DateTime) {
+            $this->date_heure_fin = \DateTimeImmutable::createFromInterface($date_heure_fin);
+        }
 
         return $this;
     }

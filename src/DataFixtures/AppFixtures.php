@@ -16,7 +16,7 @@ class AppFixtures extends Fixture
 
     public function load(ObjectManager $manager): void
     {
-        $user = (new User())
+        $admin = (new User())
             ->setPrenom("admin")
             ->setPseudo("admin")
             ->setEmail("admin@admin.com")
@@ -24,12 +24,20 @@ class AppFixtures extends Fixture
             ->setDateEnregistrement(new \DateTimeImmutable())
             ->setStatus(1)
             ->setRoles(["ROLE_ADMIN"]);
+        $admin->setPassword($this->hasher->hashPassword($admin, '000000'));
 
-        $user->setPassword(
-            $this->hasher->hashPassword($user, '000000')
-        );
+        $user = (new User())
+            ->setPrenom("user")
+            ->setPseudo("user")
+            ->setEmail("user@user.com")
+            ->setCivilite("M")
+            ->setDateEnregistrement(new \DateTimeImmutable())
+            ->setStatus(1)
+            ->setRoles(["ROLE_USER"]);
+        $user->setPassword($this->hasher->hashPassword($user, '000000'));
 
         $manager->persist($user);
+        $manager->persist($admin);
         $manager->flush();
     }
 }
