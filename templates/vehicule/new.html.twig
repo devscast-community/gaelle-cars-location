@@ -1,11 +1,14 @@
-{% extends 'base.html.twig' %}
-
-{% block title %}New Vehicule{% endblock %}
+{% extends 'admin.html.twig' %}
+{% block title %}Ajouter un véhicule{% endblock %}
 
 {% block body %}
-    <h1>Create new Vehicule</h1>
+    <h1>Ajouter un véhicule</h1>
 
-    {{ include('vehicule/_form.html.twig') }}
+    <div class="card">
+        <div class="card-body">
+            {{ include('vehicule/_form.html.twig') }}
+        </div>
+    </div>
 
-    <a href="{{ path('app_vehicule_index') }}">back to list</a>
+    <a class="btn btn-primary" href="{{ path('app_vehicule_index') }}">Tous les véhicules</a>
 {% endblock %}

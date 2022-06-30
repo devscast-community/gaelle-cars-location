@@ -1,41 +1,43 @@
-{% extends 'base.html.twig' %}
-
+{% extends 'admin.html.twig' %}
 {% block title %}Commande index{% endblock %}
 
 {% block body %}
-    <h1>Commande index</h1>
+    <h1>Commandes</h1>
 
-    <table class="table">
-        <thead>
-            <tr>
-                <th>Id</th>
-                <th>Date_heure_depart</th>
-                <th>Date_heure_fin</th>
-                <th>Prix_total</th>
-                <th>Date_enregistrement</th>
-                <th>actions</th>
-            </tr>
-        </thead>
-        <tbody>
-        {% for commande in commandes %}
-            <tr>
-                <td>{{ commande.id }}</td>
-                <td>{{ commande.dateHeureDepart ? commande.dateHeureDepart|date('Y-m-d H:i:s') : '' }}</td>
-                <td>{{ commande.dateHeureFin ? commande.dateHeureFin|date('Y-m-d H:i:s') : '' }}</td>
-                <td>{{ commande.prixTotal }}</td>
-                <td>{{ commande.dateEnregistrement ? commande.dateEnregistrement|date('Y-m-d') : '' }}</td>
-                <td>
-                    <a href="{{ path('app_commande_show', {'id': commande.id}) }}">show</a>
-                    <a href="{{ path('app_commande_edit', {'id': commande.id}) }}">edit</a>
-                </td>
-            </tr>
-        {% else %}
-            <tr>
-                <td colspan="6">no records found</td>
-            </tr>
-        {% endfor %}
-        </tbody>
-    </table>
-
-    <a href="{{ path('app_commande_new') }}">Create new</a>
+    <a class="btn btn-primary" href="{{ path('app_commande_new') }}">Create new</a>
+    <div class="card">
+        <div class="card-body">
+            <table class="table">
+                <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Date_heure_depart</th>
+                    <th>Date_heure_fin</th>
+                    <th>Prix_total</th>
+                    <th>Date_enregistrement</th>
+                    <th>actions</th>
+                </tr>
+                </thead>
+                <tbody>
+                {% for commande in commandes %}
+                    <tr>
+                        <td>{{ commande.id }}</td>
+                        <td>{{ commande.dateHeureDepart ? commande.dateHeureDepart|date('Y-m-d H:i:s') : '' }}</td>
+                        <td>{{ commande.dateHeureFin ? commande.dateHeureFin|date('Y-m-d H:i:s') : '' }}</td>
+                        <td>{{ commande.prixTotal }}</td>
+                        <td>{{ commande.dateEnregistrement ? commande.dateEnregistrement|date('Y-m-d') : '' }}</td>
+                        <td>
+                            <a href="{{ path('app_commande_show', {'id': commande.id}) }}">show</a>
+                            <a href="{{ path('app_commande_edit', {'id': commande.id}) }}">edit</a>
+                        </td>
+                    </tr>
+                {% else %}
+                    <tr>
+                        <td colspan="6">no records found</td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
 {% endblock %}

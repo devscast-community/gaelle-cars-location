@@ -1,13 +1,15 @@
-{% extends 'base.html.twig' %}
-
+{% extends 'admin.html.twig' %}
 {% block title %}Edit Commande{% endblock %}
 
 {% block body %}
     <h1>Edit Commande</h1>
 
-    {{ include('commande/_form.html.twig', {'button_label': 'Update'}) }}
+    <div class="card">
+        <div class="card-body">
+            {{ include('commande/_form.html.twig', {'button_label': 'Update'}) }}
+        </div>
+    </div>
 
-    <a href="{{ path('app_commande_index') }}">back to list</a>
-
+    <a class="btn btn-danger" href="{{ path('app_commande_index') }}">back to list</a>
     {{ include('commande/_delete_form.html.twig') }}
 {% endblock %}
